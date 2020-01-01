@@ -225,7 +225,7 @@ Verifies the object is a React element. Returns `true` or `false`.
 #### `React.Children.map` {#reactchildrenmap}
 
 ```javascript
-React.Children.map(children, function[(thisArg)])
+React.Children.map(children, function, [(thisArg)])
 ```
 
 Invokes a function on every immediate child contained within `children` with `this` set to `thisArg`. If `children` is an array it will be traversed and the function will be called for each child in the array. If children is `null` or `undefined`, this method will return `null` or `undefined` rather than an array.
@@ -237,7 +237,7 @@ Invokes a function on every immediate child contained within `children` with `th
 #### `React.Children.forEach` {#reactchildrenforeach}
 
 ```javascript
-React.Children.forEach(children, function[(thisArg)])
+React.Children.forEach(children, function, [(thisArg)])
 ```
 
 Like [`React.Children.map()`](#reactchildrenmap) but does not return an array.
